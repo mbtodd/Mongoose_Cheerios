@@ -8,6 +8,7 @@ var cheerio = require("cheerio");
 
 var mongoose = require("mongoose");
 
+
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
 
@@ -48,8 +49,8 @@ router.post("/scrape", function(req, res) {
 
     // Make emptry array for temporarily saving and showing scraped Articles.
     var scrapedArticles = {};
-    // Now, we grab every h2 within an article tag, and do the following:
-    $("div h3").each(function(i, element) {
+    // Now, we grab every h3 within an article tag, and do the following:
+    $("div h5").each(function(i, element) {
 
       // Save an empty result object
       var result = {};
