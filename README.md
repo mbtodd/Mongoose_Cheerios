@@ -1,2 +1,15 @@
 # Mongoose_Cheerios
-MondoDB homework
+This Application is a News Scaper for the Houston Chronicle. 
+You have the ability to save and take notes about your article. 
+The saved articles may also be deleted.
+
+
+
+
+Site link:
+https://chron-news-scraper.herokuapp.com/
+
+
+
+
+
