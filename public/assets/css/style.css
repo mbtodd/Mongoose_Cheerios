@@ -1,0 +1,52 @@
+html {
+	font-size: 12px;
+}
+
+li { 
+    margin-bottom: 1%;
+}
+
+p {
+	font-size: 16px;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#bodyinput {
+    width: 50%;
+}
+
+.jumbotron {
+    overflow: hidden;
+    font-size: 80px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    background-size: 100%;
+    background-position: center;
+    background-image: url('../images/HITEC-Houston-2018.jpg');
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+}
+
+.panel-heading.row {
+	width: 100%;
+    margin-left: 0%;
+}
+
+.panel-primary {
+    height: 135px;
+}
+
+#savenote {
+    display: block;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	
+}
